@@ -1,0 +1,68 @@
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+    .contenuto {
+        width: 1150px;
+        background: rgba(6, 0, 0, 0.5);
+        border-radius: 20px 20px 20px 20px;
+        margin: auto;
+        padding: 90px;
+        font-family: 'poppins', sans-serif;
+     }
+
+    * {
+        box-sizing: border-box;
+    }
+
+        header {
+            text-align: center;
+            align-items: center;
+            color: #00dd00;
+            line-height: 1;
+        }
+
+        #logo {
+            width: 242px;
+        }
+
+        nav {
+            background-color:#00dd00;
+            height: 50px; 
+            text-align: center;
+            padding: 10px;
+        }
+
+        main {
+            color: white;
+            line-height: 1;
+        }
+
+        .nomi {
+            font-size: 24px;
+        }
+
+        .carica-gino, .carica-mike, .carica-fede {
+            border-radius: 5px 5px 5px 5px;
+            height: 31px;    
+        }
+        
+        .carica-gino {
+            background-color: #f5b453;
+            width: 355px;
+            color: #f5b453;
+        }
+
+        .carica-mike {
+            background-color: #00dd00;
+            width: 603px;
+            color: #00dd00;
+        }
+
+        .carica-fede {
+            background-color:#be4141;
+            width: 152px;
+            color: #be4141;
+        }
